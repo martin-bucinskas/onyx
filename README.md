@@ -14,6 +14,6 @@ and through the [code of conduct][code_of_conduct_link].
 
 This project is licensed under [GNU General Public License v3.0][license_link].
 
-[contributing_guidelines_link]: https://github.com/martin-bucinskas/onyx/docs/CONTRIBUTING.md
-[code_of_conduct_link]: https://github.com/martin-bucinskas/onyx/docs/CODE_OF_CONDUCT.md
-[license_link]: https://github.com/martin-bucinskas/onyx/docs/LICENSE.md
+[contributing_guidelines_link]: https://github.com/martin-bucinskas/onyx/blob/main/docs/CONTRIBUTING.md
+[code_of_conduct_link]: https://github.com/martin-bucinskas/onyx/blob/main/docs/CODE_OF_CONDUCT.md
+[license_link]: https://github.com/martin-bucinskas/onyx/blob/main/docs/LICENSE.md
