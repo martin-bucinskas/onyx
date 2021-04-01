@@ -1,11 +1,3 @@
----
-name: "🚀 Tracking/Requesting issue 🚀"
-about: Use this template for tracking/requesting new features
-title: "[DATE]: [FEATURE NAME]"
-labels: needs triage, enhancement
----
-# Pull Request
-
 ## Current Problem
 **Fixes #<!-- Replace this with the issue -->**
 <!-- Describe the problem below, insert an issue if relevant -->
