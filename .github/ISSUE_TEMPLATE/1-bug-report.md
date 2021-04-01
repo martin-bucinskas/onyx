@@ -1,5 +1,5 @@
 ---
-name: "🐛 Tracking/Requesting issue 🐛"
+name: "🐛 Report a bug 🐛"
 about: Use this template for tracking bugs
 title: "[DATE]: [BUG NAME]"
 labels: tracking issue, needs triage, bug
