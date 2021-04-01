@@ -24,4 +24,4 @@ As an open source project, we want everyone to enjoy. Do read through the [code 
 and do keep within the code.
 
 [semver_link]: http://semver.org/
-[code_of_conduct_link]: https://github.com/martin-bucinskas/onyx/docs/CODE_OF_CONDUCT.md
+[code_of_conduct_link]: https://github.com/martin-bucinskas/onyx/blob/main/docs/CODE_OF_CONDUCT.md
