@@ -15,12 +15,13 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 @Configuration
-public class WebClientConfig {
+public class RsApiConfig {
 
-    private static final String API_ENDPOINT = "crystalmathlabs.com/tracker/api.php";
+    private static final String RS_API_ENDPOINT = "https://services.runescape.com/m=hiscore_oldschool/index_lite.ws";
+
     private static final int TIMEOUT = 4000;
 
-    @Bean("crystal-math-labs-client")
+    @Bean("rs-api-client")
     WebClient webClient() {
 
         var httpClient = HttpClient.create()
@@ -33,7 +34,7 @@ public class WebClientConfig {
                         .addHandlerLast(new WriteTimeoutHandler(TIMEOUT, TimeUnit.MILLISECONDS)));
 
         return WebClient.builder()
-            .baseUrl(API_ENDPOINT)
+            .baseUrl(RS_API_ENDPOINT)
             .clientConnector(new ReactorClientHttpConnector(httpClient))
             .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
             .build();

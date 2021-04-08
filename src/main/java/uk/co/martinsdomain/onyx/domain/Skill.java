@@ -1,30 +1,32 @@
 package uk.co.martinsdomain.onyx.domain;
 
-public enum Skill {
+public class Skill {
 
-    OVERALL,
-    ATTACK,
-    DEFENCE,
-    STRENGTH,
-    HITPOINTS,
-    RANGED,
-    PRAYER,
-    MAGIC,
-    COOKING,
-    WOODCUTTING,
-    FLETCHING,
-    FISHING,
-    FIREMAKING,
-    CRAFTING,
-    SMITHING,
-    MINING,
-    HERBLORE,
-    AGILITY,
-    THIEVING,
-    SLAYER,
-    FARMING,
-    RUNECRAFTING,
-    HUNTER,
-    CONSTRUCTION,
-    EHP
+    private final double rank;
+    private final int level;
+    private final double xp;
+    private final SkillConst skill;
+
+    public Skill(double rank, int level, double xp, SkillConst skill) {
+        this.rank = rank;
+        this.level = level;
+        this.xp = xp;
+        this.skill = skill;
+    }
+
+    public double getRank() {
+        return rank;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public double getXp() {
+        return xp;
+    }
+
+    public SkillConst getSkill() {
+        return skill;
+    }
 }
